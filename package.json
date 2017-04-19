@@ -1,0 +1,23 @@
+{
+  "name": "JMU Parking App",
+  "version": "1.0.0",
+  "description": "An app used to determine where anyone can park at James Madison University",
+  "main": "parkingApp.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrPickles2009/parkingApp.git"
+  },
+  "keywords": [
+    "parking",
+    "JMU"
+  ],
+  "author": [
+    "Benjamin Gilliam",
+    "Kyle Clark",
+    "Cole Carton"
+  ],
+  "license": "MIT"
+}
