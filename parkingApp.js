@@ -23,7 +23,7 @@ if (status == "Resident") {
 		console.log("You can park in the following zones: " + blue);
 	}
 } else {
-	console.log("Input must be Resident, Commuter, Visitor or Staff");
+	throw new Error("Input must be Resident, Commuter, Visitor or Staff");
 }
 
 /*
