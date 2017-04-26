@@ -4,7 +4,7 @@ We developed an npm package used to determine where anyone can park at James Mad
 
 This package was created for visitors, residents, commuters and staff at JMU. This package will list the available places on campus that anyone can park at. We created this package to help diminish the nightmare of on-campus parking at JMU.
 
-![JMU Parking Sign](https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg "JMU Parking Sign")
+https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg
 
 ## Running the tests
 We ran our code using the testing framework [Jasmine](https://jasmine.github.io/).
