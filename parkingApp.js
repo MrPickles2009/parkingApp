@@ -8,7 +8,7 @@ let blue = ["1070 Virginia Avenue", "220 University Boulevard", "380 University 
 let red = ["1077 South Main Street", "131 West Grace Street", "A Lot", "B Lot", "C6 Lot SADAH", "Cantrell Ave Deck Level 2", "Cantrell Ave Deck Level 3", "Grace Street Deck Level 2", "Grace Street Deck Level 3", "Grace Street Deck Level 4", "Grace Street Deck Level 5", "Grace Street Deck Level 6", "Grace Street Deck Level 7", "I Lot", "Ice House Lot", "J lot", "K Lot", "M Lot", "Mason Street Deck Faculty/Staff", "Memorial Hall", "N3 Lot", "Q Lot East", "Q Lot North", "Q Lot West", "R8 Lot Faculty/Staff", "S Lot", "T Lot", "V Lot", "W Lot", "Warsaw Ave Deck Level 2 faculty/staff", "Warsaw Ave Deck Level G", "X Lot", "Y Lot", "Z Lot"];
 
 //creating a function 'parkingApp' with a class 'status' to determine which parking lots the user can park in
-var parkingApp = status => {
+var parkingApp = (status) => {
 	if (status == "Resident") {
 		console.log("You can park in the following zones: " + resident);
 	} else if (status == "Commuter") {
@@ -17,7 +17,7 @@ var parkingApp = status => {
 		console.log(visitor);
 	} else if (status == "Staff") {
 //creating new function 'whichStaff' with class 'staff' to determine if staff member is Red Zone or Blue Zone staff
-		var whichStaff = staff => {
+		var whichStaff = (staff) => {
 			if (staff == "Red Zone") {
 				console.log("You can park in the following zones: " + red);
 			} else {
@@ -26,7 +26,7 @@ var parkingApp = status => {
 		};
 	} else {
 //throwing an error if input is anything other than 'Resident', 'Commuter', 'Visitor' or 'Staff'
-		throw new Error("Input must be Resident, Commuter, Visitor or Staff");
+		throw new Error("'Input must be Resident, Commuter, Visitor or Staff");
 	}
 };
 module.exports = parkingApp;
