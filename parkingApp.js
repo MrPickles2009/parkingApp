@@ -13,4 +13,4 @@ let red = ["1077 South Main Street", "131 West Grace Street", "A Lot", "B Lot", 
 
 let visitor = console.log('Parking Services provides visitors with parking permits at no charge during our normal business hours (7:00 AM - 5:00 PM Monday through Friday). Visitors who arrive at times other than those specified above should park in R1, R2, or R4 Lots and obtain a permit from Parking Services as soon as possible. (If a visitor receives a citation in the specified lots, they should contact Parking Services during business hours.) Visitors are not required to display permits after 3:00 PM on Friday through 7:00 AM Monday and may park in Commuter and Resident lots.')
 
-console.log("What is your status at JMU? (Resident, Commuter, Staff, Visitor)
+console.log("What is your status at JMU? (Resident, Commuter, Staff, Visitor)")
