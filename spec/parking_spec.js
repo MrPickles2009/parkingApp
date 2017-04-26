@@ -8,6 +8,8 @@ describe('An app used to determine where anyone can park at James Madison Univer
 
 	it("throws an error if given bad input", () => {
 		expect(parkingApp.bind(null)).not.toThrowError("Input must be Resident, Commuter, Visitor or Staff");
+		expect(parkingApp.bind(" ")).not.toThrowError("Input must be Resident, Commuter, Visitor or Staff");
+		expect(parkingApp.bind("blah blah blah")).not.toThrowError("Input must be Resident, Commuter, Visitor or Staff");
 	});
 
 	it("will list the parking lot zones for a user's status", () => {
