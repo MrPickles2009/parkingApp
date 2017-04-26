@@ -1,21 +1,26 @@
 # JMU Parking App
 
-We developed an app used to determine where anyone can park at James Madison University between the hours of 7 a.m.- 4 p.m. on weekdays.
+We developed an npm package used to determine where anyone can park at James Madison University between the hours of 7 a.m.- 4 p.m. on weekdays.
 
-This app was created for visitors, residents, commuters and staff. When using the app users will be asked which category listed before that they fall into, and from there the app will prompt them where they can park on campus. We created this app because parking on campus is an absolute nightmare so we wanted to come up with some sort of solution to this problem.
+This package was created for visitors, residents, commuters and staff at JMU. This package will list the available places on campus that anyone can park at. We created this package to help diminish the nightmare of on-campus parking at JMU.
 
 ![JMU Parking Sign](https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg "JMU Parking Sign")
 
 ## Running the tests
-
-Jasmine 
+We ran our code using the testing framework [Jasmine](https://jasmine.github.io/).
+We ran the tests by executing the command:
+```
+jasmine
+```
 
 ## Authors
 
-Ben Gilliam,
-Kyle Clark,
-Cole Carton,
-Brendan Nulty
+* **Ben Gilliam** - [MrPickles2009](https://github.com/MrPickles2009/)
+* **Kyle Clark** - [clark3kr](https://github.com/clark3kr)
+* **Cole Carton** - [cartoncr](https://github.com/cartoncr)
+* **Brendan Nulty** - [nultybg](https://github.com/nultybg)
+
+See also the list of [contributors](https://github.com/MrPickles2009/parkingApp/graphs/contributors) who participated in this project.
 
 ## License
 
