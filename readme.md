@@ -10,9 +10,9 @@ Jasmine
 
 ## Authors
 
-Ben Gilliam
-Kyle Clark
-Cole Carton
+Ben Gilliam,
+Kyle Clark,
+Cole Carton,
 Brendan Nulty
 
 ## License
