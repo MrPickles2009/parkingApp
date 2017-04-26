@@ -1,4 +1,4 @@
-# Project Title
+# JMU Parking App
 
 One Paragraph of project description goes here
 
