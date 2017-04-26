@@ -1,4 +1,4 @@
-# JMU Parking App
+# NPM package for Parking at JMU
 
 We developed an npm package used to determine where anyone can park at James Madison University between the hours of 7 a.m.- 4 p.m. on weekdays.
 
