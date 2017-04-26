@@ -7,8 +7,7 @@ This package was created for visitors, residents, commuters and staff at JMU. Th
 ![](https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg)
 
 ## Running the tests
-We ran our code using the testing framework [Jasmine](https://jasmine.github.io/).
-We ran the tests by executing the command:
+We tested our code using [Jasmine](https://jasmine.github.io/) by executing the command:
 ```
 jasmine
 ```
