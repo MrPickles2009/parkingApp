@@ -4,7 +4,7 @@ We developed an app used to determine where anyone can park at James Madison Uni
 
 This app was created for visitors, residents, commuters and staff. When using the app users will be asked which category listed before that they fall into and from there the app will prompt them where they can park on campus. We created this app because parking on campus is an absolute nightmare so we wanted to come up with some sort of solution to this problem.
 
-![JMU Parking Sign](https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg "JMU Parking Sign")
+![JMU Parking Sign](https://raw.githubusercontent.com/MrPickles2009/parkingApp/master/parkingSign.jpg "JMU Parking Sign" =80%)
 
 ## Running the tests
 
